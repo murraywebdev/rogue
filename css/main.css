@@ -1,0 +1,174 @@
+/***** BODY STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID STYLES *****/
+
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 33%;
+  float: left;
+}
+
+/***** HEADER SECTION STYLES *****/
+
+header .full-width {
+}
+
+header {
+  overflow: auto;
+}
+
+header h1 {
+  color: #000000;
+  font-size: 30px;
+  text-transform: uppercase;
+  float: left;
+  padding-left: 25px;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+header nav {
+  float: right;
+  padding-top: 15px;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 14px;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+/***** TOP SECTION STYLES *****/
+
+#top {
+  clear: both;
+}
+
+#top #hero-img {
+  width: 100%;
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#top h2 {
+  font-size: 18px;
+  line-height: 23px;
+  color: #77a466;
+  text-transform: uppercase;
+  weight: 700;
+  padding-left: 25px;
+}
+
+#top p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** BOTTOM SECTION STYLES *****/
+
+#bottom .third-width {
+  height: 210px;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#bottom #left {
+  border-right: 1px solid #dedbdc;
+}
+
+#bottom #middle {
+  border-right: 1px solid #dedbdc;
+}
+
+/***** BOTTOM LEFT SECTION STYLES *****/
+
+#left h3, ul {
+  padding-left: 25px;
+}
+
+#left h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+#left ul {
+  list-style: none;
+}
+
+#left ul li {
+  padding-bottom: 20px;
+  color: #77a466;
+  font-size: 16px;
+}
+
+/***** BOTTOM MIDDLE SECTION STYLES *****/
+
+#middle h3, p {
+  padding-left: 25px;
+}
+
+#middle h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+#middle p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/***** BOTTOM RIGHT SECTION STYLES *****/
+
+#right h3, p {
+  padding-left: 25px;
+}
+
+#right h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+#right p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/***** FOOTER SECTION STYLES *****/
+
+footer {
+  clear: both;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+footer h2 span {
+  color: #77a466;
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize;
+}
